@@ -1,0 +1,8 @@
+body {
+  margin: 0; }
+
+header {
+  background-color: #1FB4B5;
+  padding: 15px; }
+  header ul {
+    list-style-type: none; }

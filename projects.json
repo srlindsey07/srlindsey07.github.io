@@ -1,0 +1,73 @@
+[{
+	"name":"Bella Vite Winery Branding &amp; Corporate Identity",
+	"type":"print",
+	"picture":"assets/proj-bellavite.png",
+	"description":"Create a logo and branding along with a corporate identity package for Bella Vite Winery.",
+	"role":"Graphic Designer",
+	"responsibilities":"Logo Design, Branding, Print Setup",
+	"tool_icons":["assets/icon-illustrator.png", "assets/icon-indesign.png"]
+}, {
+	"name":"SITA eGate Manager",
+	"type":"web",
+	"picture":"assets/proj-sita-egate.png",
+	"description":"Design and build an application that manages the eGates in airports for the world’s leading air transport communications and IT specialist.",
+	"role":"Software Engineer",
+	"responsibilities":"Rapid Prototyping, UI &amp; UX Design",
+	"tool_icons":["assets/icon-html5.png", "assets/icon-css3.png", "assets/icon-javascript.png", "assets/icon-jquery.png"]
+}, {
+	"name":"Rocker Girl",
+	"type":"print",
+	"picture":"assets/proj-rocker.png",
+	"description":"Design an 8” x 8” photo montage with a Rock & Roll theme.",
+	"role":"Graphic Designer",
+	"responsibilities":"Photography, Photo Editing",
+	"tool_icons":["assets/icon-photoshop.png"]
+}, {
+	"name":"Toyota Owners",
+	"type":"web",
+	"picture":"assets/proj-toyota.png",
+	"description":"Create a responsive retrofit for an existing application to allow for a larger consumer base.",
+	"role":"Software Engineer",
+	"responsibilities":"Rapid Prototyping, UI &amp; UX Design",
+	"tool_icons":["assets/icon-html5.png", "assets/icon-css3.png", "assets/icon-javascript.png", "assets/icon-jquery.png"]
+}, {
+	"name":"Graveyard Montage",
+	"type":"print",
+	"picture":"assets/proj-graveyard.png",
+	"description":"Create a photo montage with a spooky theme.",
+	"role":"Graphic Designer",
+	"responsibilities": "Photography, Photo Editing",
+	"tool_icons":["assets/icon-photoshop.png"]
+}, {
+	"name":"Theorem",
+	"type":"web",
+	"picture":"assets/proj-theorem.png",
+	"description":"Create a name, slogan, logo and branding for an agile assessment dashboard that tests many aspects of a company’s agility.",
+	"role":"Graphic Designer",
+	"responsibilities": "Logo Design, Branding",
+	"tool_icons":["assets/icon-illustrator.png"]
+}, {
+	"name":"Asian Heritage Month Poster",
+	"type":"print",
+	"picture":"assets/proj-saraswati.png",
+	"description":"Create a poster representing a God or Goddess to promote Asian Heritage Month.",
+	"role":"Graphic Designer",
+	"responsibilities": "Research, Illustration, Layout",
+	"tool_icons":["assets/icon-illustrator.png"]
+}, {
+	"name":"Leslie's Floral Boutique Branding &amp; Corporate Identity",
+	"type":"print",
+	"picture":"assets/proj-leslies-print.png",
+	"description":"Design a logo and corporate identity package for Leslie's Floral Boutique.",
+	"role":"Graphic Designer",
+	"responsibilities": "Logo Design, Branding, Layout",
+	"tool_icons":["assets/icon-illustrator.png", "assets/icon-indesign.png"]
+}, {
+	"name":"Leslie's Floral Boutique Website",
+	"type":"web",
+	"picture":"assets/proj-leslies-web.png",
+	"description":"Design a website for Leslie's Floral Boutique based on current branding.",
+	"role":"UI/UX Designer",
+	"responsibilities": "UX &amp; UI Design",
+	"tool_icons":["assets/icon-illustrator.png"]
+}]
