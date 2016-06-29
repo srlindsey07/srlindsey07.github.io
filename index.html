@@ -6,7 +6,7 @@
 	<title>Stephanie Rentfrow</title>
 
 	<link rel="stylesheet" href="css/styles.min.css">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
 </head>
 <body>
 	<header>
@@ -37,9 +37,6 @@
 	<section class="hero">
 		<img src="assets/color-block-code.svg" alt="Color Block Code Image" class="color-block">
 		<img src="assets/designer-developer.svg" alt="Designer and Developer" class="text">
-		<div class="arrow">
-			<i class="fa fa-angle-down" aria-hidden="true"></i>
-		</div>
 	</section>
 
 	<section class="row synopsis" id="synopsis">
@@ -258,29 +255,18 @@
 	</footer>
 
 	<script type="text/javascript" src="js/scripts.min.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function() {
+			var scrollPoint = $(window).scrollTop();
 
-	<!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
-	<!--<script>
-		$('#contactForm').on('submit', function() {
-			$.ajax({
-	                	method: 'POST',
-	                	url: 'email.php?response=json',
-	                	data: {
-	                        'name': $('#name').val(),
-	                        'email': $('#email').val(),
-	                        'message': $('#message').val(),
-	                        'g-recaptcha-response': grecaptcha.getResponse()
-	                	},
-	                	dataType: 'json'
-			}).done(function(response) {
-	                	if (response.success) {
-	                        alert('Message Sent!');
-	                	} else {
-	                         alert(response.error);
-	                	}
-			});
-			return false;
+			if ( scrollPoint >= 300 ) {
+				$('.download').fadeIn(200);
+			} 
+
+			else {
+				$('.download').fadeOut(200);
+			}
 		});
-	</script>-->
+	</script>
 </body>
 </html>

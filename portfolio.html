@@ -6,7 +6,7 @@
 	<title>Stephanie Rentfrow</title>
 
 	<link rel="stylesheet" href="css/styles.min.css">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 </head>
 <body>
 	<header>
@@ -29,6 +29,11 @@
 		</nav>
 		<div class="clear"></div>
 	</header>
+
+	<button class="top">
+		<i class="fa fa-angle-up" aria-hidden="true"></i>
+		Top
+	</button>
 
 	<section class="row project print">
 		<div class="container">
@@ -278,5 +283,14 @@
 	</footer>
 
 	<script type="text/javascript" src="js/scripts.min.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function() {
+			if (  $(window).scrollTop() >= 500 ) {
+				$('.top').fadeIn(200);
+			} else {
+				$('.top').fadeOut(200);
+			}
+		});
+	</script>
 </body>
 </html>
